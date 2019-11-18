@@ -119,6 +119,9 @@ public class EkipArkadaslarimizPage extends PageBase {
     		//Avukat seçeneği gelebilir mesela...
     	}
     	
+    	
+    	goToEndOfPage();
+    	click(btnSisKullancisiHayirBy, 0);
     	sleep(2);
     	
     	//aşağıdaki durum çok istisna. okumak istediğimiz değer HTML olarak sayfada yer almıyor. bu yüzden javascript ile okuyorum.
@@ -137,8 +140,7 @@ public class EkipArkadaslarimizPage extends PageBase {
 			}
 		}
     	
-    	goToEndOfPage();
-    	click(btnSisKullancisiHayirBy);
+
     	goToTopOfPage();
     	click(btnKaydetBy);
     	waitSweetAlert();

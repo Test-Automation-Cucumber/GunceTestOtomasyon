@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Web Suite" duration-ms="267055" started-at="2019-11-15T17:38:27Z" finished-at="2019-11-15T17:42:54Z">
+  <suite name="Web Suite" duration-ms="40144" started-at="2019-11-18T12:11:42Z" finished-at="2019-11-18T12:12:22Z">
     <groups>
     </groups>
-    <test name="Web Tests" duration-ms="267055" started-at="2019-11-15T17:38:27Z" finished-at="2019-11-15T17:42:54Z">
+    <test name="Web Tests" duration-ms="40144" started-at="2019-11-18T12:11:42Z" finished-at="2019-11-18T12:12:22Z">
       <class name="tests.RegressionTestSuite.TC_Regression_001_Phase_1">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a]" name="beforeSuite" is-config="true" duration-ms="279" started-at="2019-11-15T17:38:27Z" finished-at="2019-11-15T17:38:27Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92]" name="beforeSuite" is-config="true" duration-ms="184" started-at="2019-11-18T12:11:42Z" finished-at="2019-11-18T12:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a]" name="beforeClass" is-config="true" duration-ms="0" started-at="2019-11-15T17:38:27Z" finished-at="2019-11-15T17:38:27Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-11-18T12:11:42Z" finished-at="2019-11-18T12:11:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a]" name="beforeMethod" is-config="true" duration-ms="8752" started-at="2019-11-15T17:38:27Z" finished-at="2019-11-15T17:38:36Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92]" name="beforeMethod" is-config="true" duration-ms="5966" started-at="2019-11-18T12:11:42Z" finished-at="2019-11-18T12:11:48Z">
           <params>
             <param index="0">
               <value>
@@ -26,132 +26,26 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="TC_Regression_001_Phase_1()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a]" name="TC_Regression_001_Phase_1" duration-ms="258220" started-at="2019-11-15T17:38:36Z" finished-at="2019-11-15T17:42:54Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Failed to decode response from marionette
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'METINEMRESEN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11588, moz:profile: C:\Users\emre\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e6d2b42c-d1c0-432f-b927-441fb27c0ce3
-*** Element info: {Using=id, value=LumpsumAmount}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Failed to decode response from marionette
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'METINEMRESEN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11588, moz:profile: C:\Users\emre\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e6d2b42c-d1c0-432f-b927-441fb27c0ce3
-*** Element info: {Using=id, value=LumpsumAmount}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
-at org.openqa.selenium.By$ById.findElement(By.java:188)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
-at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
-at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
-at utilities.PageBase.waitClickable(PageBase.java:204)
-at utilities.PageBase.writeText(PageBase.java:337)
-at pages.TeklifDosyasiPage.teklifDosyasiDuzenle(TeklifDosyasiPage.java:173)
-at tests.RegressionTestSuite.TC_Regression_001_Phase_1.TC_Regression_001_Phase_1(TC_Regression_001_Phase_1.java:149)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="TC_Regression_001_Phase_1()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92]" name="TC_Regression_001_Phase_1" duration-ms="34144" started-at="2019-11-18T12:11:48Z" finished-at="2019-11-18T12:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Regression_001_Phase_1 -->
-        <test-method status="FAIL" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a]" name="tearDown" is-config="true" duration-ms="14" started-at="2019-11-15T17:42:54Z" finished-at="2019-11-15T17:42:54Z">
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-11-18T12:12:22Z" finished-at="2019-11-18T12:12:22Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=TC_Regression_001_Phase_1 status=FAILURE method=TC_Regression_001_Phase_1.TC_Regression_001_Phase_1()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a] output={null}]]]>
+                <![CDATA[[TestResult name=TC_Regression_001_Phase_1 status=SUCCESS method=TC_Regression_001_Phase_1.TC_Regression_001_Phase_1()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchSessionException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'METINEMRESEN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11588, moz:profile: C:\Users\emre\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e6d2b42c-d1c0-432f-b927-441fb27c0ce3]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'METINEMRESEN', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 70.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191030021342, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 11588, moz:profile: C:\Users\emre\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: e6d2b42c-d1c0-432f-b927-441fb27c0ce3
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
-at utilities.ExtentReportUtilities.getScreenshot(ExtentReportUtilities.java:16)
-at utilities.TestBase.tearDown(TestBase.java:121)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a]" name="afterClass" is-config="true" duration-ms="0" started-at="2019-11-15T17:42:54Z" finished-at="2019-11-15T17:42:54Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-11-18T12:12:22Z" finished-at="2019-11-18T12:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@35cabb2a]" name="afterSuite" is-config="true" duration-ms="931" started-at="2019-11-15T17:42:54Z" finished-at="2019-11-15T17:42:55Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.RegressionTestSuite.TC_Regression_001_Phase_1@21213b92]" name="afterSuite" is-config="true" duration-ms="332" started-at="2019-11-18T12:12:22Z" finished-at="2019-11-18T12:12:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
