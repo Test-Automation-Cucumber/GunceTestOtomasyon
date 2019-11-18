@@ -59,9 +59,9 @@ public class TestBase {
         
         ////-----------------------
         
-    		Provider provider = new Provider();
-			String[] DBInfo = provider.MyConnectionString(System.getProperty("env"), "web");
-			 System.setProperty("site_url", DBInfo[0]);
+    	//	Provider provider = new Provider();
+		//	String[] DBInfo = provider.MyConnectionString(System.getProperty("env"), "web");
+			 System.setProperty("site_url", "http://test.gunce.com");
     	
     	if (configurationGet.gettestTarget().equals("webLocal")) {
 
